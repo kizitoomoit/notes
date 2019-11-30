@@ -30,7 +30,7 @@
                 Log Out
               </a>
             {% else %}
-              <a class="navbar-item" href="#">
+            <a class="navbar-item" href="{{ url_for('log_in') }}">
                 Log In
               </a>
               <a class="navbar-item" href="{{ url_for('sign_up') }}">
